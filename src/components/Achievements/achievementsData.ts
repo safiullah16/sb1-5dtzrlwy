@@ -1,0 +1,58 @@
+import { Users, Star, Globe, Award, Trophy, Heart } from 'lucide-react';
+
+export const achievements = [
+  {
+    id: '1',
+    icon: Users,
+    name: 'Global Community',
+    description: 'Over 1 million active users worldwide',
+    progress: 1200000,
+    total: 1000000,
+    imageUrl: 'https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: '2',
+    icon: Star,
+    name: 'App Store Rating',
+    description: 'Average rating across all platforms',
+    progress: 4.8,
+    total: 5,
+    imageUrl: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: '3',
+    icon: Globe,
+    name: 'Countries Reached',
+    description: 'Available and active worldwide',
+    progress: 120,
+    total: 195,
+    imageUrl: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: '4',
+    icon: Award,
+    name: 'Industry Awards',
+    description: 'Recognition for excellence in fitness tech',
+    progress: 15,
+    total: 20,
+    imageUrl: 'https://images.unsplash.com/photo-1526401485004-46910ecc8e51?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: '5',
+    icon: Trophy,
+    name: 'Success Stories',
+    description: 'Documented transformation journeys',
+    progress: 50000,
+    total: 50000,
+    imageUrl: 'https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: '6',
+    icon: Heart,
+    name: 'Lives Impacted',
+    description: 'Health improvements reported',
+    progress: 850000,
+    total: 1000000,
+    imageUrl: 'https://images.unsplash.com/photo-1549576490-b0b4831ef60a?auto=format&fit=crop&q=80&w=800',
+  },
+];
